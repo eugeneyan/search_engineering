@@ -24,5 +24,5 @@ while [ true ];
 do
   echo "Products:"
   curl -k -XGET -u admin:admin  "https://$HOST:9200/_cat/count/bbuy_products";
-  sleep 30;
+  sleep 10;
 done
